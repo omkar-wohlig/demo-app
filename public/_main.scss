@@ -1,0 +1,357 @@
+@import "@/assets/Scss/_variable.scss";
+
+//font
+.butler {
+  font-family: $butler;
+  font-weight: normal;
+}
+.butler-gray {
+  font-family: $butler;
+  font-weight: normal;
+  color: #636363;
+}
+.butler-medium {
+  font-family: $butler;
+  font-weight: 500;
+}
+.butler-bold {
+  font-family: $butler;
+  font-weight: 600;
+}
+.butler-700 {
+  font-family: $butler;
+  font-weight: 700;
+  color: #1B1B1B;
+}
+.butler-italic {
+  font-family: $butler;
+  font-style: italic;
+}
+.poppins {
+  font-family: $poppins;
+  font-weight: normal;
+}
+.poppins-grey {
+  font-family: $poppins;
+  font-weight: normal;
+  color: #636363;
+}
+.poppins-medium {
+  font-family: $poppins;
+  font-weight: 500;
+}
+.poppins-grey-500 {
+  font-family: $poppins;
+  font-weight: 500;
+  color: #909090;
+}
+.poppins-grey-600 {
+  font-family: $poppins;
+  font-weight: 600;
+  color: #909090;
+}
+.poppins-bold {
+  font-family: $poppins;
+  font-weight: 600;
+}
+.poppins-700 {
+  font-family: $poppins;
+  font-weight: 700;
+}
+.poppins-italic {
+  font-family: $poppins;
+  font-style: italic;
+}
+.noto-serif {
+  font-family: $noto-serif;
+  font-weight: normal;
+}
+
+.noto-serif-medium {
+  font-family: $noto-serif;
+  font-weight: 500;
+}
+
+.noto-serif-bold {
+  font-family: $noto-serif;
+  font-weight: 600;
+}
+.noto-serif-italic {
+  font-family: $noto-serif;
+  font-style: italic;
+}
+
+//   Font Size
+.font-8 {
+  font-size: 0.5rem;
+}
+.font-9 {
+  font-size: 0.5625rem !important;
+}
+.font-10 {
+  font-size: 0.625rem !important;
+}
+.font-11 {
+  font-size: 0.6875rem;
+}
+.font-12 {
+  font-size: 0.75rem !important;
+}
+.font-13 {
+  font-size: 0.8125rem !important;
+}
+.font-14 {
+  font-size: 0.875rem;
+}
+.font-15 {
+  font-size: 0.9375rem;
+}
+.font-16 {
+  font-size: 1rem;
+}
+.font-17 {
+  font-size: 1.0625rem;
+}
+.font-18 {
+  font-size: 1.125rem;
+}
+.font-19 {
+  font-size: 1.1875rem;
+}
+.font-20 {
+  font-size: 1.25rem;
+}
+.font-21 {
+  font-size: 1.3125rem;
+}
+.font-22 {
+  font-size: 1.375rem;
+}
+.font-23 {
+  font-size: 1.4375rem;
+}
+.font-24 {
+  font-size: 1.5rem;
+}
+.font-25 {
+  font-size: 1.5625rem;
+}
+.font-26 {
+  font-size: 1.625rem;
+}
+.font-27 {
+  font-size: 1.6875rem;
+}
+.font-28 {
+  font-size: 1.75rem;
+}
+.font-29 {
+  font-size: 1.8125rem;
+}
+.font-30 {
+  font-size: 1.875rem;
+}
+.font-34 {
+  font-size: 2.125rem;
+}
+body {
+  font-family: $poppins !important;
+  font-size: 1rem;
+  height: 100vh;
+}
+.v-application {
+  font-family: $poppins !important;
+  font-size: 1rem;
+  height: 100vh;
+}
+.v-btn {
+  text-transform: none;
+}
+
+.maroon-btn {
+  background-color: #75614e !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+.brown-txt{
+  color: #4B4B4B !important;
+}
+.maroon-txt {
+  color: #9b8065 !important;
+}
+.black-txt{
+  color: #1F1F1F !important;
+}
+.grey-txt {
+  color: #717171 !important;
+}
+.black-btn {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+.sub-text-color {
+  color: #3c3c3c;
+}
+.white-txt{
+  color: white !important;
+}
+.black-border {
+  border: 1px solid #1f1f1f;
+}
+
+// common css
+.for-desk {
+  display: block;
+}
+.for-mob {
+  display: none;
+}
+.text-dark-brown {
+  color: $dark-brown;
+}
+.text-dark-choco {
+  color: $dark-choco;
+}
+.bg-dark-brown {
+  background-color: $dark-brown !important;
+}
+.text-light-grey {
+  color: $light-grey;
+}
+.text-grey {
+  color: $grey !important;
+}
+.text-lightest-grey {
+  color: $lightest-grey;
+}
+.text-light-dark {
+  color: $light-black;
+}
+.text-orange {
+  color: $orange;
+}
+.text-dark {
+  color: $black;
+}
+.text-success-green {
+  color: $success-green;
+}
+.text-maroon {
+  color: $maroon;
+}
+.text-green {
+  color: #22b11c;
+}
+.bg-maroon {
+  background-color: $maroon;
+}
+.bg-light-pink {
+  background-color: $light-pink;
+}
+.bg-light-grey {
+  background-color: $light-grey !important;
+}
+.v-btn {
+  text-transform: none !important;
+}
+
+.text-light-brown {
+  color: $light-brown;
+}
+.vertical-center {
+  vertical-align: middle;
+  display: table-cell;
+}
+.validation-error {
+  color: red;
+}
+.v-text-field__details {
+  display: none !important;
+}
+.v-input {
+  padding: 0;
+}
+.v-expansion-panel-header {
+  justify-content: space-between;
+  border-bottom: 1px solid #dfdfdf;
+}
+.v-expansion-panel::before {
+  box-shadow: none !important;
+}
+.v-application--is-ltr .v-messages {
+  display: none;
+}
+.active-btn {
+  color: white !important;
+  background-color: black !important;
+  font-size: 1rem;
+  box-shadow: none;
+}
+.inactive-btn {
+  background-color: #ffffff !important;
+  color: black !important;
+  border: 0.75px solid #6c6c6c;
+  box-shadow: none;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0 !important;
+}
+.v-tab--active {
+  color: #72593f !important;
+}
+.v-application .pa-4 {
+  padding: 0px !important;
+}
+.v-window__prev,
+.v-window__next {
+  background: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mdi:before,
+.mdi-set {
+  font-size: 25px !important;
+  /* color: #ffffff; */
+}
+.page-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.v-tab--active {
+  color: #1f1f1f !important;
+}
+.v-tab {
+  text-transform: none !important;
+}
+.title-section{
+  font-size: 22px;
+  text-align: left;
+  color:#4B4B4B!important;
+}
+@media only screen and (min-width: 960px) {
+  .title-section{
+    font-size: 30px;
+    text-align: left;
+    color: #1F1F1F !important;
+  }
+  
+  }
+// for mobile
+@media only screen and (max-width: 767px) {
+  .for-desk {
+    display: none;
+  }
+  .for-mob {
+    display: block;
+  }
+}
+
+// for ipad pro
+@media only screen and (min-device-width: 991px) and (max-device-width: 1200px) {
+}
+
+// for ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+}
